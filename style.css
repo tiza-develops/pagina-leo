@@ -1,3 +1,28 @@
+* {
+  margin: 0;
+  background-color: #C3B398;
+}
+
 body {
   font-family: "Patrick Hand SC", cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer,.header {
+  background-color: #6C893E;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  min-height: 20vh !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
